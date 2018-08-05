@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.contents_area {
+	position:relative;
+	width:1150px;
+	top:-100px;
+	margin:50px auto 50px auto;
+	border:1px solid black;
+}
+
+.adnt_frm {
+	text-align:center;
+	font-weight:bold;
+	font-size:large;
+	margin:20px auto 50px auto;
+}
+
+.adnt_frm span {
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	padding:10px;
+}
+
+#catebox {
+	position:relative;
+	width:1150px;
+	height:300px;
+	font-size:15px;
+}
+
+.ad_tbl_free {
+    width:100%;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+.ad_tbl_free th {
+    font-weight:bold;
+    text-align:center;
+    font-size:0.9em;
+    background:#99cccc;
+}
+
+.ad_tbl_free td {
+    font-size:0.8em;
+    text-align:left;
+}
+
+.ad_tbl_free th, .ad_tbl_free td {
+    border-top:1px solid gray;
+    padding:10px;
+}
+
+.ad_tbl_free .ad_btn_search {
+	text-align:center;
+}
+
+.ad_tbl_result {
+	width:100%;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+.ad_tbl_result th {
+    font-weight:bold;
+    text-align:center;
+    font-size:0.9em;
+    background:#99cccc;
+}
+
+.ad_tbl_result td {
+    font-size:0.9em;
+    text-align:center;
+}
+
+.ad_tbl_result th, .ad_tbl_result td {
+    border-top:1px solid gray;
+    padding:10px;
+}
+
+#ad_qnabox {
+	font-size:15px;
+}
+
+
+
+
+
+
+

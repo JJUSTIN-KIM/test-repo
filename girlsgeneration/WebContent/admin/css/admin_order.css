@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+.contents_area {
+	position:relative;
+	width:1150px;
+	top:-100px;
+	margin:50px auto 50px auto;
+}
+
+.page_title {
+	text-align:center;
+	font-weight:bold;
+	font-size:large;
+	margin:5px 0 5px 0;
+}
+
+.page_title span {
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	padding:10px;
+}
+
+h3 {
+    font-size:1.5em;
+    font-weight:bold;
+    padding-top:30px;
+    padding-bottom:15px;
+}
+
+.table_searchBox {
+    width:100%;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+.table_searchBox th {
+    font-weight:bold;
+    text-align:center;
+    font-size:0.9em;
+    background:#99cccc;
+}
+
+.table_searchBox td {
+    font-size:0.8em;
+    text-align:left;
+}
+
+.table_searchBox th, .table_searchBox td {
+    border-top:1px solid gray;
+    padding:10px;
+}
+
+#limit {
+	width:100px;
+}
+
+.table_searchBox .btn_search {
+	text-align:center;
+}
+
+.table_searchResult {
+    width:100%;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+.table_searchResult th {
+    font-weight:bold;
+    text-align:center;
+    font-size:0.9em;
+    background:#99cccc;
+}
+
+.table_searchResult td {
+    font-size:0.9em;
+    text-align:center;
+}
+
+.table_searchResult th, .table_searchResult td {
+    border-top:1px solid gray;
+    padding:10px;
+}
+
+.order_basic .table_order_basic {
+    width:100%;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+.order_basic .table_order_basic th {
+    font-weight:bold;
+    text-align:center;
+    font-size:0.9em;
+    background:#99cccc;
+}
+
+.order_basic .table_order_basic th, .order_basic .table_order_basic td {
+    border-top:1px solid gray;
+    padding:10px 0 10px 0;
+}
+
+.order_basic .table_order_basic td {
+    font-size:0.9em;
+    padding-left:10px;
+}
+
+.order_address .table_order_address {
+    width:100%;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    margin-top:7px;
+    margin-bottom:7px;
+}
+
+.order_address .table_order_address th {
+    font-weight:bold;
+    text-align:center;
+    font-size:0.9em;
+    background:#99cccc;
+}
+
+.order_address .table_order_address th, .order_address .table_order_address td {
+    border-top:1px solid gray;
+    padding:10px 0 10px 0;
+}
+
+.order_address .table_order_address td {
+    font-size:0.9em;
+    padding-left:10px;
+}
+
+.order_address .order_address_name {
+    width:80px;
+}
+
+.order_address .order_address_delivery strong {
+    font-size:0.8em;
+}
+
+.order_address .order_address_delivery .order_phone {
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.order_address .order_address_delivery .order_address_text {
+    width:250px;
+    margin-top:8px;
+}
+
+.order_address .order_message {
+    width:505px;
+    height:100px;
+}
+
+.table_order_list2 {
+    width:100%;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+.table_order_list2 th {
+    font-weight:bold;
+    text-align:center;
+    background:#99cccc;
+    font-size:0.9em;
+}
+
+.table_order_list2 th, .table_order_list2 td {
+    border-top:1px solid gray;
+    padding:7px 0 7px 0;
+}
+
+.table_order_list2 img {
+    height:100px;
+    width:100px;
+}
+
+.table_order_list2 .td_product_info div {
+    text-align:left;
+}
+
+.table_order_list2 .td_order_number {
+    text-align:center;
+}
+
+.table_order_list2 .box_product_option img {
+    height:16px;
+    width:28px;
+}
+
+.table_order_list2 div {
+    margin:5px 10px 5px 10px;
+    font-size:0.9em;
+    text-align:center;
+}
+
+.table_order_list2 .total_payment {
+    text-align:right;
+}
+
+.table_order_list2 .total_payment strong {
+    font-weight:bold;
+}
+
+.table_payment_info {
+    width:100%;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+.table_payment_info th {
+    font-weight:bold;
+    text-align:center;
+    font-size:0.9em;
+    background:#99CCCC;
+}
+
+.table_payment_info td {
+    text-align:center;
+    font-size:0.9em;
+}
+
+.table_payment_info strong {
+    font-weight:bold;
+}
+
+.table_payment_info th, .table_payment_info td {
+    border-top:1px solid gray;
+    padding:7px 0 7px 0;
+}
+
+.order_btn {
+    padding:40px 0;
+    text-align:center;
+}

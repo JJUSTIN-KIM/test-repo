@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* header 시작 */
+#header {
+	position:relative;
+	text-align:center;
+	margin:0 auto 0 auto;
+}
+
+#header_logo {
+	position:relative;
+	text-align:left;
+}
+
+#header_menu {
+	position:relative;
+	top:-30px;
+	color:gray;
+	font-size:1.2em;
+	font-family:굴림, 'time new roman', serif;
+}
+
+#menu_ul_li {
+}
+
+#header_agent {
+	position:relative;
+	text-align:right;
+	top:-75px;
+}
+
+.menu_ul li {
+	position:relative;
+	display:inline-grid;
+	padding:5px 20px 5px 20px;
+}
+/* header 종료 */
+
+
+
+
+
+/* footer 시작 */
+#footer_wrapper {
+	position:relative;
+	margin:0 auto;
+	height:300px;
+}
+
+#customer_center {
+	position:relative;
+	margin:0px auto 0px auto;
+	width:300px;
+	color:gray;
+	line-height:1.5;
+}
+
+#bank_info {
+	position:relative;
+	margin:0px auto 0px auto;
+	width:300px;
+	color:gray;
+	line-height:1.5;
+}
+
+#copyright {
+	position:relative;
+	width:500px;
+	margin:0px auto 0px auto;
+	color:gray;
+	text-align:center;
+}
+
+#copyright li {
+	display:inline-grid;
+	padding:5px 20px 5px 20px;
+}
+/* footer 종료 */
+
+
+div { border:1px dashed red; }
+
+
+

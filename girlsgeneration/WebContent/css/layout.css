@@ -1,0 +1,591 @@
+@charset "utf-8";
+
+#header {
+	position:relative;
+	margin:0 auto;
+	width:1500px;
+	height:220px;
+	padding-bottom:50px;
+}
+
+.logo {
+	position:relative;
+	margin:0 auto;
+	top:30px;
+	width:300px;
+	height:100px;
+}
+
+.my {
+	position:relative;
+	left:85%;
+	top:-100px;
+	width:360px;
+}
+
+.my li {
+	position:relative;
+	display:inline-grid;
+	padding:0 0 3px 0;
+}
+
+.my li ul {
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	position:absolute;
+	top:30px;
+	left:13px;
+	width:100px;
+	z-index:200;
+}
+
+.my li ul li {
+	border-bottom:1px solid gray;
+}
+
+.my li:hover ul {
+	display:inline-grid;
+}
+
+.cate {
+	position:relative;
+	text-align:center;
+}
+
+.cate li {
+	position:relative;
+	display:inline-grid;
+	padding:0 20px 3px 20px;
+}
+
+.cate li ul{
+	display:none;
+	height:auto;
+	position:absolute;
+	top:35px;
+	left:13px;
+	width:150px;
+	z-index:200;
+}
+
+.cate li:hover ul {
+	display:inline-grid;
+}
+
+#sn {
+	left:3px;
+}
+
+#sd {
+	left:-3px;
+}
+
+#bw {
+	left:30px;
+}
+
+#main {
+	position:relative;
+	width:1150px;
+	margin:auto;
+}
+
+#main_pick {
+	position:relative;
+	margin-bottom:200px;
+}
+
+#main_pick td {
+	padding:1px;
+}
+
+#main_best {
+	position:relative;
+	margin:10px auto 150px auto;
+}
+
+#main_best td {
+	padding:0px 15px 40px 15px;
+}
+
+#main_new {
+	position:relative;
+	margin:10px auto 150px auto;
+}
+
+#main_new td {
+	padding:0px 15px 40px 15px;
+}
+
+#product_list {
+	position:relative;
+	width:1150px;
+	margin:auto;
+	margin-bottom:150px;
+}
+
+#product_list_cate {
+	position:relative;
+	padding-bottom:30px;
+}
+
+#product_list_cate ul {
+	position:relative;
+	margin:10px 0 0 10px;
+}
+
+#product_list_cate .pls_ul1 {
+	text-align:center;
+	font-size:1.5em;
+}
+
+#product_list_cate .pls_ul2 {
+	text-align:center;
+	font-size:1.2em;
+}
+
+#product_list_cate .pls_ul3 {
+	font-size:1.1em;
+}
+
+#product_list_search {
+	position:relative;
+	padding-bottom:20px;
+}
+
+#pls_tbl {
+	position:relative;
+	margin:10px 0 0 10px;
+	width:1120px;
+	height:150px;
+}
+
+#product_list_order {
+	position:relative;
+	padding-bottom:30px;
+}
+
+#product_list_order ul {
+	position:relative;
+	width:1120px;
+	top:10px;
+	left:10px;
+}
+
+#product_list_order .plo_ul1 {
+	text-align:right;
+	font-size:1.3em;
+}
+
+#product_list_order .plo_ul2 {
+	font-size:1.1em;
+}
+
+#tbl_product_list {
+	position:relative;
+	margin:10px auto 0 auto;
+}
+
+#tbl_product_list td {
+	padding:0px 15px 40px 15px;
+	width:250px;
+}
+
+#pl_paging {
+	position:relative;
+	font-size:1.5em;
+	margin:auto;
+}
+
+#product_newbest {
+	position:relative;
+	width:1150px;
+	margin:0 auto 150px auto;
+}
+
+#isnb_img {
+	position:relative;
+	width:70px;
+	margin:80px auto 80px auto;
+}
+
+#product_detail {
+	position:relative;
+	width:1150px;
+	margin:auto;
+}
+
+#product_thumb_option {
+	position:relative;
+	height:610px;
+}
+
+#product_thumbnail {
+	position:absolute;
+	width:750px;
+}
+
+#product_option_select {
+	position:absolute;
+	left:770px;
+	width:350px;
+	margin:30px 0 0 0;
+}
+
+#tbl_frm_choice {
+	width:350px;
+	line-height:1.6;
+}
+
+#tbl_frm_choice td {
+	padding:2px;
+	padding-bottom:5px;
+	text-align:center;
+}
+
+#tbl_frm_choice .fc_phead {
+	text-align:center;
+	font-size:1.8em;
+	font-weight:bold;
+	padding-bottom:30px;
+}
+
+#tbl_frm_choice .fc_head {
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+#tbl_frm_choice .fc_val {
+	padding-right:15px;
+	text-align:right;
+}
+
+#tbl_frm_choice .fc_deli {
+	text-align:center;
+	font-size:1.3em;
+	font-weight:bold;
+	padding-top:30px;
+}
+
+#tbl_frm_choice select {
+	width:80px;
+	height:20px;
+}
+
+#tbl_frm_choice span {
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+#tbl_frm_choice .fc_apl {
+	height:80px;
+}
+
+#tbl_frm_choice .fc_buy, #tbl_frm_choice .fc_cart {
+	height:120px;
+}
+
+#product_detail_img {
+	position:relative;
+	text-align:center;
+}
+
+#review_grade {
+	position:relative;
+	margin:0 auto 100px 0;
+}
+
+#tbl_review_grade {
+	margin:auto;
+}
+
+#tbl_review_grade td {
+	border:1px solid white;
+}
+
+#tbl_review_grade .grade_score_total {
+	text-align:center;
+	width:150px;
+	font-size:5.0em;
+	font-weight:bold;
+	background-color:black;
+	color:white;
+}
+
+#tbl_review_grade .grade_score {
+	text-align:center;
+	width:80px;
+	height:25px;
+	color:gray;
+}
+
+#tbl_review_grade .grade_stick {
+	padding:0px 10px 0px 10px;
+	width:500px;
+	height:25px;
+	background-color:#ffa5c32b;
+}
+
+#tbl_review_grade .grade_people_count {
+	text-align:center;
+	width:80px;
+	height:25px;
+	color:gray;
+}
+
+#tbl_review_grade .grade_score_count {
+	width:80px;
+	text-align:center;
+	font-size:1.1em;
+	color:gray;
+}
+
+#review_make {
+	position:relative;
+	margin:100px auto 100px auto;
+/*	border:1px solid black; */
+}
+
+#tbl_review_make {
+	width:700px;
+	margin:0 auto 0 auto;
+}
+
+#tbl_review_make td {
+	padding:5px;
+}
+
+#tbl_rm_contents {
+	width:850px;
+	height:150px;
+}
+
+#tbl_review_make .tbl_td_addcontent {
+	border:1px solid #808080c9;
+}
+
+#tbl_review_make .tbl_td_addpicture {
+	width:200px;
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #808080c9;
+	border-left:1px solid #808080c9;
+	border-right:1px solid #808080c9;
+}
+
+#tbl_review_make .tbl_td_addreview {
+	width:150px;
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #808080c9;
+	border-left:1px solid #808080c9;
+	border-right:1px solid #808080c9;
+}
+
+#tbl_review_make .tbl_td_addgrade {
+	border-bottom:1px solid #808080c9;
+}
+
+#tbl_review_make .tbl_td_addgrade select {
+	width:420px;
+	height:25px;
+	font-size:1.2em;
+	border-bottom:1px solid #808080c9;
+}
+
+#tbl_review_count {
+	align:center;
+	width:850px;
+	margin:100px auto 10px auto;
+}
+
+#tbl_review_count td {
+	padding:5px 0px 5px 10px;
+	height:20px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#tbl_review_show {
+	align:center;
+	width:850px;
+	margin:10px auto 100px auto;
+	border-top:1px solid #808080c9;
+}
+
+#tbl_review_show td {
+	padding:3px;
+	height:20px;
+
+}
+
+#tbl_review_show pre {
+	font-size:1.3em;
+	line-height:1.3;
+}
+
+#tbl_review_show .tbl_rs_content {
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#tbl_review_show .tbl_rs_con_contents {
+	padding:10px;
+}
+
+#tbl_review_show .tbl_rs_image {
+	padding-left:10px;
+}
+
+#tbl_review_show .tbl_rs_writer_head {
+	text-align:center;
+	width:20%;
+	color:gray;
+}
+
+#tbl_review_show .tbl_rs_writer_body {
+	text-align:center;
+	font-weight:bold;
+}
+
+#tbl_review_show .tbl_rs_date_head {
+	text-align:center;
+	color:gray;
+	border-top:1px solid #808080c9;
+}
+
+#tbl_review_show .tbl_rs_date_body {
+	text-align:center;
+	font-weight:bold;
+}
+
+#tbl_review_show .tbl_rs_reply {
+	height:40px;
+	color:gray;
+	padding-left:10px;
+	border-bottom:1px solid #808080c9;
+}
+
+
+
+
+#qna_view {
+	position:relative;
+	margin:100px auto 100px auto;
+/*	border:1px solid black; */
+}
+
+#delivery_exchange {
+	position:relative;
+	align:center;
+	margin:100px auto 100px auto;
+}
+
+#tbl_delivery_exchange {
+	margin:auto;
+}
+
+#tbl_delivery_exchange td {
+	width:400px;
+}
+
+#tbl_delivery_exchange .tbl_de_head_deli {
+	border-top:1px solid #80808063;
+	border-bottom:1px solid #80808063;
+	height:40px;
+	font-weight:bold;
+	font-size:1.2em;
+	padding:3px 5px 3px 20px;
+}
+
+#tbl_delivery_exchange .tbl_de_head_exc {
+	border-top:1px solid #80808063;
+	border-bottom:1px solid #80808063;
+	border-left:1px solid #80808063;
+	height:40px;
+	font-weight:bold;
+	font-size:1.2em;
+	padding:3px 5px 3px 20px;
+}
+
+#tbl_delivery_exchange .tbl_de_contents_deli {
+	border-bottom:1px solid #80808063;
+	height:250px;
+	color:gray;
+	padding:3px 5px 3px 20px;
+}
+
+#tbl_delivery_exchange .tbl_de_contents_exc {
+	border-bottom:1px solid #80808063;
+	border-left:1px solid #80808063;
+	height:250px;
+	color:gray;
+	padding:3px 5px 3px 20px;
+}
+
+#footer_wrapper {
+	position:relative;
+	margin:0 auto;
+	width:1150px;
+	height:300px;
+}
+
+#customer_center {
+	position:relative;
+	width:300px;
+	color:gray;
+	line-height:1.5;
+}
+
+#bank_info {
+	position:absolute;
+	width:200px;
+	top:0px;
+	left:350px;
+	color:gray;
+	line-height:1.5;
+}
+
+#delivery_notice {
+	position:absolute;
+	width:300px;
+	top:0px;
+	left:600px;
+	color:gray;
+	line-height:1.5;
+}
+
+#company_info {
+	position:absolute;
+	width:180px;
+	top:0px;
+	left:950px;
+	color:gray;
+	line-height:1.8;
+}
+
+#copyright {
+	position:relative;
+	width:900px;
+	top:100px;
+	margin:0px auto 0px auto;
+	color:gray;
+	text-align:center;
+}
+
+.contents_area {
+	position:relative;
+	width:1150px;
+	margin:50px auto 50px auto;
+}
+
+
+
+/* div { border:1px dashed red; } */
+
+
+

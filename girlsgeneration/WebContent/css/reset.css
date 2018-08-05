@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* HTML요소들의 초기화 작업을 하는 CSS */
+
+/* 각 요소(element) 여백 초기화(없앰) */
+html, body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, blockquote, p, cite, 
+address, pre, form, fieldset, input, textarea, select, table, th, td { margin:0; padding:0; }
+
+/* 제목 요소 서식 초기화 */
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+
+/* 테두리 없애기 */
+fieldset, img, abbr, acronym { border:0 none; }
+
+/* 목록에서 마커 없애기 */
+ol, ul { list-style:none; }
+
+/* 테이블 관련 초기화(cellspacing="0"은 지정해야 함) */
+table { border-collapse:separate; border-spacing:0; border:0 none; }
+caption, th, td { text-align:left; font-weight:normal; }
+
+/* 텍스트 관련 초기화(기울임꼴, 굵은 글씨 등의 강조효과 없앰) */
+address, caption, strong, em, cite { font-weight:normal; font-style:normal; }
+ins { text-decoration:none; }
+del { text-decoration:line-through; }
+
+/* 인용문 */
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+
+

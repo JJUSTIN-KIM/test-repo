@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+#div_form{
+	position:relative;
+	width:1150px;
+	margin:50px auto 150px auto;
+}
+
+
+.table_basic {
+	width:1000px;
+	padding-top:10px;
+	border:1px solid silver;
+	align-content:center;
+	margin-top:30px;
+	margin-left:50px;
+	
+}
+#search_table{
+	margin-left:30px;
+	margin-bottom:30px;
+}
+
+.btn_style{
+	font-size:25;
+	color:#FFA5C3;
+	border-color:#FFA5C3;
+	background-color:white;
+}
+
+
+
+#join_agree{
+	position:relative;
+	width:1150px;
+	margin:50px auto 150px auto;
+}
+ 
+ #login .login_form{
+ 	padding-top:10px;
+ 	padding-left:20px;
+ 	
+ }
+ 
+ #login .memberInfo{
+  	position:relative;
+ 	padding-top:10px;
+ 	padding-left:20px;
+ }
